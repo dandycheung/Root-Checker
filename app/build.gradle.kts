@@ -9,16 +9,16 @@ plugins {
 
 extensions.configure<ApplicationExtension>  {
     namespace = "com.roottools.rootchecker"
-    compileSdk = 36
+    compileSdk = 37
     defaultConfig {
         applicationId = "com.roottools.rootchecker"
         vectorDrawables {
             useSupportLibrary = true
         }
         minSdk = 23
-        targetSdk = 36
-        versionCode = 131
-        versionName = "5.5"
+        targetSdk = 37
+        versionCode = 135
+        versionName = "5.6"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     buildFeatures {
@@ -75,7 +75,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.androidx.cardview)
     implementation(libs.androidx.compose.material3)
-    implementation(libs.androidx.compose.material3.windowsize)
     implementation(libs.androidx.compose.material3.windowsize)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
